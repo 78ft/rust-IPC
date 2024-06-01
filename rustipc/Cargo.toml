@@ -1,0 +1,13 @@
+[package]
+name = "rustipc"
+version = "0.1.0"
+edition = "2021"
+warnings = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc="0.2"
+uuid = { version = "1.8.0", features = ["v5"] }
+scoped-tls ="1.0.1"
+anyhow="1.0" 
